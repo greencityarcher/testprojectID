@@ -1,0 +1,17 @@
+.images {
+    margin-bottom: 50px;
+
+    &__left {
+        float: left;
+    }
+
+    &__right {
+        float: right;
+    }
+
+    &::after {
+        content: "";
+        clear: both;
+        display: block;
+    }
+}

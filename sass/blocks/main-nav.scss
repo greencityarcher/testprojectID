@@ -1,0 +1,14 @@
+.main-nav {
+    &__menu {
+        float: right;
+        margin-top: 58px;
+        width: 700px;
+        height: 80px;
+    }
+
+    &::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+}

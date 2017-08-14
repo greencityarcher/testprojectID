@@ -1,0 +1,18 @@
+.draggable {
+    position: relative;
+    overflow: hidden;
+    width: 350px;
+    height: 228px;
+
+    .photo {
+        width: auto;
+        height: auto;
+        position: absolute;
+        top: -50%;
+        left: -50%;
+    }
+
+    &.moveable {
+        cursor: move;
+    }
+}

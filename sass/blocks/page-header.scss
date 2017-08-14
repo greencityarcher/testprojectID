@@ -1,0 +1,48 @@
+.page-header {
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    right: 0;
+    background-color: #ffffff;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 20px;
+        background-color: rgba(0,0,0,0.5);
+    }
+
+    &__logo-wrap {
+        float: left;
+        width: 128px;
+        height: 125px;
+        margin-top: 33px;
+    }
+
+    &__collapsing-wrap {
+        @extend .center-positioned;
+    }
+
+    &__navigation {
+        @extend .center-positioned;
+        box-sizing: border-box;
+        height: 184px;
+    }
+
+    &__toggle {
+        height: 20px;
+        box-sizing: border-box;
+        padding-top: 5px;
+        min-width: $min-width;
+        text-align: center;
+        background-color: #000000;
+    }
+
+    &__toggle-btn {
+        display: block;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,42 @@
+.top-menu {
+    display: table;
+    table-layout: fixed;
+    padding: 0;
+
+    &__item {
+        position: relative;
+        display: table-cell;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 17px;
+        height: 80px;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 16px;
+        color: $top-menu-font-color;
+        background-color: $top-menu-bcg-col;
+        border-right: 1px solid $top-menu-font-color;
+        list-style: none;
+
+        &:last-of-type {
+            border-right: 0;
+        }
+
+        a {
+            color: $top-menu-font-color;
+            text-decoration: none;
+        }
+
+        &:hover {
+            .top-menu__sub-menu {
+                max-height: 500px;
+            }
+        }
+    }
+
+    &__sub-menu {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 700ms ease-in;
+    }
+}

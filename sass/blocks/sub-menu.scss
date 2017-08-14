@@ -1,0 +1,26 @@
+.sub-menu {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    z-index: 10;
+    min-width: 100%;
+    box-sizing: border-box;
+    background-color: $transparent-black-menu;
+    text-align: left;
+    list-style: none;
+    padding: 0 20px;
+
+    &__item {
+        border-bottom: 1px solid $top-menu-font-color;
+        padding: 0;
+
+        &:last-of-type {
+            border-bottom: none;
+        }
+
+        a {
+            line-height: 34px;
+            white-space: nowrap;
+        }
+    }
+}

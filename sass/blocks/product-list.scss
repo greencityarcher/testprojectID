@@ -1,0 +1,14 @@
+.product-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 700px;
+    margin: 0 0 30px;
+    padding: 0;
+
+    &__item {
+        width: 175px;
+        box-sizing: border-box;
+    }
+}

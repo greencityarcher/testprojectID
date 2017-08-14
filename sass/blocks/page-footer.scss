@@ -1,0 +1,42 @@
+.page-footer {
+    display: table-row;
+    box-sizing: border-box;
+    font-family: "PT Sans Regular", Arial, sans-serif;
+    background-color: $footer-color;
+
+    &__center-wrap {
+        @extend .center-positioned;
+        min-width: $min-width;
+    }
+
+    &__copyrights {
+        width: 250px;
+        float: left;
+    }
+
+    &__menu-wrap {
+        height: 114px;
+        margin: 0;
+        float: left;
+        display: table;
+    }
+
+    &__developers {
+        width: 220px;
+        float: right;
+        text-align: right;
+        vertical-align: middle;
+        height: 114px;
+        display: table;
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+    }
+
+    &__developers-wrap {
+        display: table-cell;
+        vertical-align: middle;
+    }
+}

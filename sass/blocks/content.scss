@@ -1,0 +1,36 @@
+.content {
+    display: table-cell;
+    height: 100%;
+
+    &__left-col {
+        display: table-cell;
+        width: 250px;
+        height: 100%;
+        background-color: $left-column-color;
+        vertical-align: top;
+    }
+
+    &__left-col-wrap {
+        padding: 33px 13px 33px 17px;
+        width: 220px;
+    }
+
+    &__right-col {
+        display: table-cell;
+        box-sizing: border-box;
+    }
+
+    &__right-col-wrap {
+        padding-left: 10px;
+        padding-top: 34px;
+        padding-bottom: 34px;
+    }
+}
+
+.column-wrap {
+    display: table;
+    height: 100%;
+    width: 960px;
+    margin: 0 auto;
+    vertical-align: top;
+}

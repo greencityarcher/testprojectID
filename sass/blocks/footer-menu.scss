@@ -1,0 +1,41 @@
+.footer-menu {
+    list-style: none;
+    display: table-cell;
+    vertical-align: middle;
+    width: 430px;
+
+    &__item {
+        display: inline-block;
+        vertical-align: top;
+        width: 143px;
+        width: 115px;
+        padding-left: 14px;
+        position: relative;
+
+        a {
+            color: $footer-menu-text-color;
+        }
+
+        &::before {
+            content: "";
+            position: absolute;
+            display: block;
+            left: 0;
+            top: 10px;
+            width: 4px;
+            height: 4px;
+            background-color: $footer-menu-text-color;
+        }
+
+        &:first-of-type,
+        &:nth-of-type(4) {
+            &::before {
+                display: none;
+            }
+        }
+
+        &:last-of-type {
+            padding-right: 0;
+        }
+    }
+}

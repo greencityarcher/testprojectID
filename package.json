@@ -1,0 +1,38 @@
+{
+  "name": "testproject",
+  "version": "1.0.0",
+  "description": "Test project for internet-design.ru",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build",
+    "start":"npm run build && gulp serve"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Borozdina Victoria",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^7.1.2",
+    "browser-sync": "^2.18.13",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-csso": "^3.0.0",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^7.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-rigger": "^0.5.8",
+    "gulp-sass": "^3.1.0",
+    "postcss-flexibility": "^2.0.0",
+    "run-sequence": "^2.1.0"
+  },
+  "dependencies": {},
+  "browserslist": [
+    "ie 9-11",
+    "last 2 versions"
+  ]
+}

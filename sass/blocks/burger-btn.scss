@@ -1,0 +1,18 @@
+.burger-btn {
+    width: 20px;
+    cursor: pointer;
+
+    &::after,
+    &::before,
+    &__strip {
+        content: "";
+        display: block;
+        height: 2px;
+        background-color: #ffffff;
+    }
+
+    &::before,
+    &__strip {
+        margin-bottom: 2px;
+    }
+}

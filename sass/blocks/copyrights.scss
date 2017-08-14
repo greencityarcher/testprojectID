@@ -1,0 +1,16 @@
+.copyrights {
+    display: table;
+    height: 114px;
+
+    &__dev-logo {
+        display: table-cell;
+        padding-right: 22px;
+        width: 84px;
+        vertical-align: middle;
+    }
+
+    &__text {
+        display: table-cell;
+        vertical-align: middle;
+    }
+}

@@ -1,0 +1,22 @@
+@import "global/variables.scss";
+@import "global/normalize.scss";
+@import "global/fonts.scss";
+@import "global/extenders-and-mixins.scss";
+
+//блоки
+@import "blocks/page.scss";
+@import "blocks/page-header.scss";
+@import "blocks/main-nav.scss";
+@import "blocks/top-menu.scss";
+@import "blocks/sub-menu.scss";
+@import "blocks/burger-btn.scss";
+@import "blocks/content.scss";
+@import "blocks/tooltip.scss";
+@import "blocks/product-list.scss";
+@import "blocks/product-card.scss";
+@import "blocks/images.scss";
+@import "blocks/draggable.scss";
+@import "blocks/hoverable.scss";
+@import "blocks/page-footer.scss";
+@import "blocks/copyrights.scss";
+@import "blocks/footer-menu.scss";
